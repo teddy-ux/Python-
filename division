@@ -1,0 +1,5 @@
+start_number = 1500 
+end_number = 2700 
+for number in range(start_number, end_number + 1): 
+    if (number % 7 == 0 and number % 5 == 0): 
+        print(f'The number {number} is divisible by 7 and multiple of 5') 
