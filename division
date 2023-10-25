@@ -1,3 +1,4 @@
+#division of numbers
 start_number = 1500 
 end_number = 2700 
 for number in range(start_number, end_number + 1): 
