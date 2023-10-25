@@ -1,4 +1,4 @@
-
+#check on the sequence of lines
 lines =[]
 while True:
     x= input()
