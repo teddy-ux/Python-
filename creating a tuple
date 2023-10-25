@@ -1,0 +1,5 @@
+#creating an empty tuple
+a=()
+print(a)
+tuplex=tuple()
+print(tuplex)
