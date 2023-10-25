@@ -1,0 +1,11 @@
+# constructing pattern using the for loop
+
+x=5
+for y in range (x):
+    for a in range(y):
+    print('*',end="")
+    print('')
+    for y in range(x,0,-1):
+        for a in range(y):
+            print('*',end="")
+            print('')
