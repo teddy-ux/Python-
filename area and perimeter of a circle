@@ -1,0 +1,7 @@
+# area and perimeter of a circle
+pi=3.142
+R= float(input("enter radius of a circle:"))
+area=(pi*R*R)
+perimeter=(2*pi*R)
+print("the area of the circle is",area)
+print("the perimeter of the circle is",perimeter)
