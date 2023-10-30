@@ -1,16 +1,27 @@
 # temp conversion
+#convert celsius to fahreinheit
+ 
+    class Temperature:
+    def convert_to_fahrenheit(self, celsius):
+        fahrenheit = (celsius * 9/5) + 32
+        return fahrenheit
+temp_converter = Temperature()
+celsius_temperature = 25
+fahrenheit_temperature = temp_converter.convert_to_fahrenheit(celsius_temperature)
+print(f"{celsius_temperature}°C is equal to {fahrenheit_temperature}°F")
 
-#class temperature:
-    #def_init_(self,temp):
-      #self.temp=temp
-      
-#def convertCelsius(self):
-  #a=self.temp *9/5+32
-    #return a
+
+#convert fahreinhert to celsius
+class Temperature:
+    def __init__(self, fahrenheit):
+        self.fahrenheit = fahrenheit
+
+    def to_celsius(self):
+        celsius = (self.fahrenheit - 32) * 5/9
+        return celsius
+
+fahrenheit_temp = 68 
+temp = Temperature(fahrenheit_temp)
+celsius_temp = temp.to_celsius()
+print(f"{fahrenheit_temp} degrees Fahrenheit is {celsius_temp} degrees Celsius.")
     
-#def convertFahreinheit(self):
-    #b= self.temp-32*5/9
-       #return b
-#temp= temperature(23)
-#print(temp.convertCelcius())
-#print(temp.convertFahreinheit())
