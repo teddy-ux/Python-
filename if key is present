@@ -1,0 +1,6 @@
+a={1:54, 2:60, 3:45}
+def is_key_present(x):
+if x in a:
+    print('key is present')
+    else:
+        print('key is not present')
